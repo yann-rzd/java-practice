@@ -38,7 +38,7 @@ public class Livre {
 
 	@Override
 	public String toString() {
-		return "Livre\nnumIsbn = " + numIsbn + "\ntitre = " + titre + "\nprix = " + prix;
+		return "Numéro ISBN = " + numIsbn + ", titre = " + titre + ", prix = " + prix;
 	}
 	
 }
