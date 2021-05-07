@@ -20,7 +20,6 @@ public class App {
 		Enfant nono = new Enfant("Bidule","Noémie",8);
 		Enfant jojo = new Enfant("Machin","Joachim",6);
 		Enfant souf = new Enfant("Truc","Soufiane",9);
-		Enfant doublon = new Enfant("Bidule","Noémie",8);
 		
 		papaNono.ajouterJouet(joujou1);
 		papaNono.ajouterJouet(joujou2);
@@ -56,7 +55,7 @@ public class App {
 class PereNoel {
 	Set<Jouet> jouets;
 	Set<Enfant> enfants;
-	Iterator iter;
+	Iterator<?> iter;
 	
 	public PereNoel() {
 		jouets = new HashSet<Jouet>();
