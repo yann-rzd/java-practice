@@ -45,7 +45,7 @@ public class Apprenant extends Personne {
 			message.append("Tu vas bosser sur Windows ! Super, comme en formation !");
 		} else if (system == Os.LINUX) {
 			message.append("Tu vas bosser sur Linux ! Tu aimes la liberté !");
-		}else {
+		}else if (system == Os.MAC) {
 			message.append("Tu vas bosser sur Mac ! Ouille ! Mais bon, un linux se cache sous le capot…");
 		}
 		message.append("\nTon lieu de travail est à " + lieuDeTravail);
